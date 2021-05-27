@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-27T10:11:15" hostname="DESKTOP-9KBRA3G" time="0.002">
+<testsuite name="UserRegistationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-27T10:23:42" hostname="DESKTOP-9KBRA3G" time="0.001">
   <properties/>
-  <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.002"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

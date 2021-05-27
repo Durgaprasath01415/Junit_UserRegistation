@@ -26,4 +26,10 @@ public class UserRegistation<$> {
         Matcher matcher = pattern.matcher(phoneNumber);
         return matcher.find();
     }
+    private static final String PASSWORD_PATTERN = "^(?=.*[A-Z])(?=.*[*.!@#$%^&(){}:'<>,/~`_+=|].){1}(?=.*[a-z])(?=.*[0-9]).{8,}$";
+    public boolean validatePassWord(String passWord){
+        Pattern pattern = Pattern.compile(PASSWORD_PATTERN);
+        Matcher matcher = pattern.matcher(passWord);
+        return matcher.find();
+    }
 }
