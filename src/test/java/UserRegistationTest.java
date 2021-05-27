@@ -37,7 +37,8 @@ public class UserRegistationTest {
         UserRegistation userRegistation = new UserRegistation();
         boolean result = userRegistation.validateLastName("pr");
         Assert.assertEquals(false, result);
-    } @Test
+    }
+    @Test
     public void givenEmail_whenProper_shouldReturnTrue() {
         UserRegistation userRegistation = new UserRegistation();
         boolean result = userRegistation.validateEmail("abc.xyz@bl.co.in");
@@ -47,6 +48,18 @@ public class UserRegistationTest {
     public void givenEmail_whenNotProper_shouldReturnfalse() {
         UserRegistation userRegistation = new UserRegistation();
         boolean result = userRegistation.validateEmail("abc.xyz@bl.com.com");
+        Assert.assertEquals(false, result);
+    }
+    @Test
+    public void givenPhoneNumber_whenProper_shouldReturnTrue() {
+        UserRegistation userRegistation = new UserRegistation();
+        boolean result = userRegistation.validatePhoneNumber("91 9919819801");
+        Assert.assertEquals(true, result);
+    }
+    @Test
+    public void givenPhoneNumber_whenNotProper_shouldReturnfalse() {
+        UserRegistation userRegistation = new UserRegistation();
+        boolean result = userRegistation.validatePhoneNumber("91 99198 19801");
         Assert.assertEquals(false, result);
     }
 
