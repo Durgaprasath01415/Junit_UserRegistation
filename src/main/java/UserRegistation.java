@@ -8,4 +8,10 @@ public class UserRegistation {
         Matcher matcher = pattern.matcher(firstname);
         return matcher.find();
     }
+    private static final String LAST_NAME_PATTERN = "^[A-Z][a-z]{3,}";
+    public boolean validateLastName(String lastname){
+        Pattern pattern = Pattern.compile(LAST_NAME_PATTERN);
+        Matcher matcher = pattern.matcher(lastname);
+        return matcher.find();
+    }
 }

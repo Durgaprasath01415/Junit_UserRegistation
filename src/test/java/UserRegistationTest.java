@@ -20,5 +20,23 @@ public class UserRegistationTest {
         boolean result = userRegistation.validateFirstName("Du");
         Assert.assertEquals(false, result);
     }
+    @Test
+    public void givenLastName_whenProper_shouldReturnTrue() {
+        UserRegistation userRegistation = new UserRegistation();
+        boolean result = userRegistation.validateLastName("Prasath");
+        Assert.assertEquals(true, result);
+    }
+    @Test
+    public void givenLastName_whenNotProper_shouldReturnfalse() {
+        UserRegistation userRegistation = new UserRegistation();
+        boolean result = userRegistation.validateLastName("prasath");
+        Assert.assertEquals(false, result);
+    }
+    @Test
+    public void givenLastName_whenShort_shouldReturnfalse() {
+        UserRegistation userRegistation = new UserRegistation();
+        boolean result = userRegistation.validateLastName("pr");
+        Assert.assertEquals(false, result);
+    }
 
 }
