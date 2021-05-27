@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserRegistationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-27T09:42:13" hostname="DESKTOP-9KBRA3G" time="0.002">
+  <properties/>
+  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenShort_shouldReturnfalse" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
