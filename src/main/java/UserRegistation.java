@@ -15,7 +15,6 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid first name.Please enter proper name");
         }
     }
-
     public static boolean validateLastName(String lastname){
         try{
             return (patternChecker(LAST_NAME_PATTERN,lastname));
@@ -23,8 +22,6 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid last name.Please enter proper name");
         }
     }
-
-
     public static boolean validateEmail(String email){
         try{
             return (patternChecker(EMAIL_PATTERN,email));
@@ -32,7 +29,6 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid email.Please enter proper mail address");
         }
     }
-
     public static boolean validatePhoneNumber(String phoneNumber){
         try{
             return (patternChecker(PHONE_NUMBER_PATTERN,phoneNumber));
@@ -40,7 +36,6 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid phone number.Please enter proper number");
         }
     }
-
     public static boolean validatePassWord(String passWord){
         try{
             return (patternChecker(PASSWORD_PATTERN,passWord));
@@ -48,17 +43,14 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid password.Please enter valid password");
         }
     }
-
     public static final String analyserMoodSad (String message)  {
         message.contains("This is a sad message");
         return "sad";
     }
-
     public static final String analyserMoodHappy (String message)  {
         message.contains("This is a Happy message");
         return "Happy";
     }
-
     public static boolean patternChecker(String inputPattern,String input ){
         Pattern pattern = Pattern.compile(inputPattern);
         Matcher matcher = pattern.matcher(input);
