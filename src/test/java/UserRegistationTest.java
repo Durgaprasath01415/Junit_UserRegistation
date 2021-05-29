@@ -1,7 +1,39 @@
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
+import java.util.Arrays;
+import java.util.Collection;
+
+@RunWith(Parameterized.class)
 public class UserRegistationTest {
+    public String email;
+    public boolean status;
+
+    public UserRegistationTest(String email , boolean status) {
+        this.email = email;
+        this.status = status;
+    }
+
+    @Parameterized.Parameters
+    public static Collection input() {
+        return Arrays.asList(new Object[][]{{"abc.xyz@bridgelabz.co.in", true},
+                {"abc@yahoo.com", true}, {"abc.100@yahoo.com", true},
+                {"abc111@abc.com", true}, {"abc-100@abc.net", true},
+                {"abc.100@abc.com.au", true}, {"abc@1.com", true},
+                {"abc@gmail.com.com", true}, {"abc+100@gmail.com", true},
+                {"abc", false}, {"abc@.com.my",false}, {"abc123@gmail.a",false},
+                {"abc123@.com",false}, {"abc123@.com.com",false}, {".abc@abc.com",false},
+                {"abc()*@gmail.com",false}, {"abc@%*.com",false}, {"abc..2002@gmail.com",false},
+                {"abc.@gmail.com",false}, {"abc@abc@gmail.com",false}, {"abc@gmail.com.1a",false},
+                {"abc@gmail.com.aa.au",false}});
+    }
+    @Test
+    public void CheckEmailValid() {
+        UserRegistation.validateEmail(email);
+    }
+
     @Test
     public void givenFirstName_whenProper_shouldReturnTrue() {
         UserRegistation userRegistation = new UserRegistation();
@@ -38,18 +70,7 @@ public class UserRegistationTest {
         boolean result = userRegistation.validateLastName("pr");
         Assert.assertEquals(false, result);
     }
-    @Test
-    public void givenEmail_whenProper_shouldReturnTrue() {
-        UserRegistation userRegistation = new UserRegistation();
-        boolean result = userRegistation.validateEmail("abc.xyz@bl.co.in");
-        Assert.assertEquals(true, result);
-    }
-    @Test
-    public void givenEmail_whenNotProper_shouldReturnfalse() {
-        UserRegistation userRegistation = new UserRegistation();
-        boolean result = userRegistation.validateEmail("abc.xyz@bl.com.com");
-        Assert.assertEquals(false, result);
-    }
+
     @Test
     public void givenPhoneNumber_whenProper_shouldReturnTrue() {
         UserRegistation userRegistation = new UserRegistation();
