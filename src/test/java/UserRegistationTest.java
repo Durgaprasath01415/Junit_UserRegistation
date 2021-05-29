@@ -74,4 +74,16 @@ public class UserRegistationTest {
         boolean result = userRegistation.validatePassWord("AAA12345@");
         Assert.assertEquals(false, result);
     }
+    @Test
+    public void testMoodAnalysis_whenSad_shouldReturnSad() {
+        UserRegistation moodAnalyser = new UserRegistation();
+        String mood = moodAnalyser.analyserMoodSad("This is a sad message");
+        Assert.assertEquals("sad", mood);
+    }
+    @Test
+    public void testMoodAnalysis_whenHappy_shouldReturnHappy() {
+        UserRegistation moodAnalyser = new UserRegistation();
+        String mood = moodAnalyser.analyserMoodHappy("This is a Happy message");
+        Assert.assertEquals("Happy", mood);
+    }
 }

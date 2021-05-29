@@ -32,4 +32,12 @@ public class UserRegistation {
         Matcher matcher = pattern.matcher(passWord);
         return matcher.find();
     }
+    public static final String analyserMoodSad (String message)  {
+        message.contains("This is a sad message");
+        return "sad";
+    }
+    public static final String analyserMoodHappy (String message)  {
+        message.contains("This is a Happy message");
+        return "Happy";
+    }
 }
