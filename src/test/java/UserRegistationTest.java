@@ -74,5 +74,4 @@ public class UserRegistationTest {
         boolean result = userRegistation.validatePassWord("AAA12345@");
         Assert.assertEquals(false, result);
     }
-
 }
