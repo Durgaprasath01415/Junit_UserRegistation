@@ -8,37 +8,60 @@ public class UserRegistation {
     private static final String PHONE_NUMBER_PATTERN = "^[91]{2}+[ ]+[0-9]{10}$";
     private static final String PASSWORD_PATTERN = "^(?=.*[A-Z])(?=.*[*.!@#$%^&(){}:'<>,/~`_+=|].){1}(?=.*[a-z])(?=.*[0-9]).{8,}$";
 
-    public static boolean validateFirstName(String firstname){
-        return (patternChecker(FIRST_NAME_PATTERN,firstname));
+    public static boolean validateFirstName(String firstname) throws UserRegistrationInvalidException {
+        try{
+            return (patternChecker(FIRST_NAME_PATTERN,firstname));
+        }catch (Exception ex){
+            throw new UserRegistrationInvalidException("Invalid first name.Please enter proper name");
+        }
     }
 
     public static boolean validateLastName(String lastname){
-        return (patternChecker(LAST_NAME_PATTERN,lastname));
+        try{
+            return (patternChecker(LAST_NAME_PATTERN,lastname));
+        }catch (Exception ex){
+            throw new UserRegistrationInvalidException("Invalid last name.Please enter proper name");
+        }
     }
 
+
     public static boolean validateEmail(String email){
-        return (patternChecker(EMAIL_PATTERN,email));
+        try{
+            return (patternChecker(EMAIL_PATTERN,email));
+        }catch (Exception ex){
+            throw new UserRegistrationInvalidException("Invalid email.Please enter proper mail address");
+        }
     }
 
     public static boolean validatePhoneNumber(String phoneNumber){
-        return (patternChecker(PHONE_NUMBER_PATTERN,phoneNumber));
+        try{
+            return (patternChecker(PHONE_NUMBER_PATTERN,phoneNumber));
+        }catch (Exception ex){
+            throw new UserRegistrationInvalidException("Invalid phone number.Please enter proper number");
+        }
     }
 
     public static boolean validatePassWord(String passWord){
-        return (patternChecker(PASSWORD_PATTERN,passWord));
+        try{
+            return (patternChecker(PASSWORD_PATTERN,passWord));
+        }catch (Exception ex){
+            throw new UserRegistrationInvalidException("Invalid password.Please enter valid password");
+        }
     }
+
     public static final String analyserMoodSad (String message)  {
         message.contains("This is a sad message");
         return "sad";
     }
+
     public static final String analyserMoodHappy (String message)  {
         message.contains("This is a Happy message");
         return "Happy";
     }
+
     public static boolean patternChecker(String inputPattern,String input ){
         Pattern pattern = Pattern.compile(inputPattern);
         Matcher matcher = pattern.matcher(input);
         return matcher.find();
     }
-
 }
