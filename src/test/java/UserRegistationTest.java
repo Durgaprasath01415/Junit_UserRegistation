@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -15,7 +14,6 @@ public class UserRegistationTest {
         this.email = email;
         this.status = status;
     }
-
     @Parameterized.Parameters
     public static Collection input() {
         return Arrays.asList(new Object[][]{{"abc.xyz@bridgelabz.co.in", true},
@@ -33,7 +31,6 @@ public class UserRegistationTest {
     public void CheckEmailValid() {
         UserRegistation.validateEmail(email);
     }
-
     @Test
     public void givenFirstName_whenProper_shouldReturnTrue() {
         UserRegistation userRegistation = new UserRegistation();
@@ -70,7 +67,6 @@ public class UserRegistationTest {
         boolean result = userRegistation.validateLastName("pr");
         Assert.assertEquals(false, result);
     }
-
     @Test
     public void givenPhoneNumber_whenProper_shouldReturnTrue() {
         UserRegistation userRegistation = new UserRegistation();
