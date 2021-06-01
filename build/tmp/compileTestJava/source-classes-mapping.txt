@@ -1,2 +1,0 @@
-UserRegistationTest.java
- UserRegistationTest
