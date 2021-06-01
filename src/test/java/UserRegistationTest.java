@@ -102,12 +102,12 @@ public class UserRegistationTest {
     public void testMoodAnalysis_whenSad_shouldReturnSad() {
         UserRegistation moodAnalyser = new UserRegistation();
         boolean mood = moodAnalyser.analyserMoodSad("This is a sad message");
-        Assert.assertEquals("sad", mood);
+        Assert.assertEquals(true, mood);
     }
     @Test
     public void testMoodAnalysis_whenHappy_shouldReturnHappy() {
         UserRegistation moodAnalyser = new UserRegistation();
         boolean mood = moodAnalyser.analyserMoodHappy("This is a Happy message");
-        Assert.assertEquals("Happy", mood);
+        Assert.assertEquals(true, mood);
     }
 }
