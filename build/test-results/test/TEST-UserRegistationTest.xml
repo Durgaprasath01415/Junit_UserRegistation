@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistationTest" tests="286" skipped="0" failures="0" errors="0" timestamp="2021-05-29T01:46:51" hostname="DESKTOP-9KBRA3G" time="0.037">
+<testsuite name="UserRegistationTest" tests="286" skipped="0" failures="0" errors="0" timestamp="2021-06-01T03:49:01" hostname="DESKTOP-9KBRA3G" time="0.036">
   <properties/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[0]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="checkEmailValid[0]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[0]" classname="UserRegistationTest" time="0.0"/>
@@ -10,11 +11,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[0]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[0]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[0]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[0]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenProper_shouldReturnTrue[1]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue[1]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="checkEmailValid[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[1]" classname="UserRegistationTest" time="0.0"/>
@@ -23,11 +24,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[1]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[1]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[2]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.0"/>
@@ -35,12 +36,12 @@
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.001"/>
-  <testcase name="CheckEmailValid[2]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[2]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[3]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[3]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[3]" classname="UserRegistationTest" time="0.0"/>
@@ -49,11 +50,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[3]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[3]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[3]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[4]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[4]" classname="UserRegistationTest" time="0.0"/>
@@ -62,24 +63,24 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[4]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[4]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[5]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[5]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenProper_shouldReturnTrue[5]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenProper_shouldReturnTrue[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[5]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[5]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenProper_shouldReturnTrue[6]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue[6]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.0"/>
@@ -88,11 +89,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[6]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[6]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[6]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[6]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[7]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.0"/>
@@ -101,11 +102,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[7]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[7]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[8]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[8]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.0"/>
@@ -113,25 +114,25 @@
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[8]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[8]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[9]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[9]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenNotProper_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenLastName_whenNotProper_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[9]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[9]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenProper_shouldReturnTrue[10]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue[10]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="checkEmailValid[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[10]" classname="UserRegistationTest" time="0.0"/>
@@ -140,37 +141,37 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[10]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[10]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[11]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[11]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenProper_shouldReturnTrue[11]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenProper_shouldReturnTrue[11]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[11]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[11]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[12]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenShort_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenShort_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[12]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[12]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.001"/>
-  <testcase name="givenPassWord_whenProper_shouldReturnTrue[13]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[12]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue[13]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="checkEmailValid[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[13]" classname="UserRegistationTest" time="0.0"/>
@@ -179,37 +180,37 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[13]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[13]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[14]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[14]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenShort_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenLastName_whenShort_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[14]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[14]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenPassWord_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[15]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[15]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenShort_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenLastName_whenShort_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[15]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenLastName_whenProper_shouldReturnTrue[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[15]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[16]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.0"/>
@@ -218,37 +219,37 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[16]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[16]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[16]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[17]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[17]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[17]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[18]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[18]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenShort_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenLastName_whenShort_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[18]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[19]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[19]" classname="UserRegistationTest" time="0.0"/>
@@ -257,11 +258,11 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[19]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[19]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[20]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenNotProper_shouldReturnfalse[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[20]" classname="UserRegistationTest" time="0.0"/>
@@ -270,20 +271,19 @@
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[20]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[20]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue[21]" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="checkEmailValid[21]" classname="UserRegistationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue[21]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenNotProper_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenLastName_whenNotProper_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenNotProper_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenShort_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenShort_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPassWord_whenNotProper_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="CheckEmailValid[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenLastName_whenProper_shouldReturnTrue[21]" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse[21]" classname="UserRegistationTest" time="0.0"/>

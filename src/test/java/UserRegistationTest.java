@@ -28,7 +28,7 @@ public class UserRegistationTest {
                 {"abc@gmail.com.aa.au",false}});
     }
     @Test
-    public void CheckEmailValid() {
+    public void checkEmailValid() {
         try{
             UserRegistation.validateEmail(email);
         }   catch (UserRegistrationInvalidException ex){
@@ -45,7 +45,6 @@ public class UserRegistationTest {
             Assert.assertEquals(UserRegistrationInvalidException.class, ex.getClass());
         }
     }
-
     @Test
     public void givenFirstName_whenNotProper_shouldReturnfalse() {
         UserRegistation userRegistation = new UserRegistation();
