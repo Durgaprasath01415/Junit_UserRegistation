@@ -15,39 +15,39 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid first name.Please enter proper name");
         }
     }
-    public static boolean validateLastName(String lastname){
+    public static boolean validateLastName(String lastname) throws UserRegistrationInvalidException{
         try{
             return (patternChecker(LAST_NAME_PATTERN,lastname));
         }catch (Exception ex){
             throw new UserRegistrationInvalidException("Invalid last name.Please enter proper name");
         }
     }
-    public static boolean validateEmail(String email){
+    public static boolean validateEmail(String email) throws UserRegistrationInvalidException {
         try{
             return (patternChecker(EMAIL_PATTERN,email));
         }catch (Exception ex){
             throw new UserRegistrationInvalidException("Invalid email.Please enter proper mail address");
         }
     }
-    public static boolean validatePhoneNumber(String phoneNumber){
+    public static boolean validatePhoneNumber(String phoneNumber) throws UserRegistrationInvalidException {
         try{
             return (patternChecker(PHONE_NUMBER_PATTERN,phoneNumber));
         }catch (Exception ex){
             throw new UserRegistrationInvalidException("Invalid phone number.Please enter proper number");
         }
     }
-    public static boolean validatePassWord(String passWord){
+    public static boolean validatePassWord(String passWord) throws UserRegistrationInvalidException {
         try{
             return (patternChecker(PASSWORD_PATTERN,passWord));
         }catch (Exception ex){
             throw new UserRegistrationInvalidException("Invalid password.Please enter valid password");
         }
     }
-    public static final String analyserMoodSad (String message)  {
+    public static final String analyserMoodSad (String message) throws UserRegistrationInvalidException {
         message.contains("This is a sad message");
         return "sad";
     }
-    public static final String analyserMoodHappy (String message)  {
+    public static final String analyserMoodHappy (String message) throws UserRegistrationInvalidException {
         message.contains("This is a Happy message");
         return "Happy";
     }
