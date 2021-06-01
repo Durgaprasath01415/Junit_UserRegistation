@@ -15,7 +15,7 @@ public class UserRegistation {
             throw new UserRegistrationInvalidException("Invalid first name.Please enter proper name");
         }
     }
-    public static boolean validateLastName(String lastname) throws UserRegistrationInvalidException{
+    public static boolean validateLastName(String lastname) throws UserRegistrationInvalidException {
         try{
             return (patternChecker(LAST_NAME_PATTERN,lastname));
         }catch (Exception ex){
