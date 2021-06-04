@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserRegistationTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-06-01T07:37:52" hostname="DESKTOP-9KBRA3G" time="0.003">
+<testsuite name="UserRegistationTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2021-06-04T01:50:21" hostname="DESKTOP-9KBRA3G" time="0.004">
   <properties/>
   <testcase name="givenPassWord_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenLastName_whenEmpty_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
   <testcase name="givenPhoneNumber_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenNotProper_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenNotProper_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenShort_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenLastName_whenNotProper_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenNotProper_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenShort_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenSad_shouldReturnSad" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenShort_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPassWord_whenNotProper_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenEmpty_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPhoneNumber_whenEmpty_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenEmpty_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenLastName_whenShort_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenPassWord_whenNotProper_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
   <testcase name="testMoodAnalysis_whenHappy_shouldReturnHappy" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenLastName_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.0"/>
-  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnfalse" classname="UserRegistationTest" time="0.0"/>
+  <testcase name="givenLastName_whenProper_shouldReturnTrue" classname="UserRegistationTest" time="0.001"/>
+  <testcase name="givenPhoneNumber_whenNotProper_shouldReturnFalse" classname="UserRegistationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
